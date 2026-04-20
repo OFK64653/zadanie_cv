@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>CV - Omer Faruk Kaya</title>
-    <link rel="stylesheet" href="green.css">
+
+    <!-- 🔥 CSS ID ile bağladık (JS ile değişecek) -->
+    <link id="theme-style" rel="stylesheet" href="red.css">
 </head>
 <body>
 
@@ -16,9 +18,19 @@
 
     <hr>
 
+    <!-- 🔥 INTERAKCJA -->
+    <button onclick="toggleInfo()">Pokaż więcej</button>
+    <button onclick="changeTheme()">Zmień motyw</button>
+    <button onclick="showMessage()">Kliknij mnie</button>
+
+    <!-- 🔥 GİZLİ BÖLÜM -->
+    <div id="extra-info" style="display: none; margin-top: 15px;">
+        <p>Interesuję się sztuczną inteligencją, programowaniem oraz nowymi technologiami.</p>
+    </div>
+
     <h2>Profil</h2>
     <p>
-        
+        Jestem studentem informatyki, rozwijającym się w kierunku AI oraz software development.
     </p>
 
     <h2>Wykształcenie</h2>
@@ -33,7 +45,7 @@
         <li>
             <strong>Siliconmade Academy</strong> – AI Developer (2024–2025)
             <p>
-                
+                Praca nad projektami związanymi ze sztuczną inteligencją i automatyzacją.
             </p>
         </li>
     </ul>
@@ -56,6 +68,9 @@
     <p>Bardzo lubię historię. Jestem licencjonowanym graczem tenisa stołowego.</p>
 
 </div>
+
+<!-- 🔥 JAVASCRIPT -->
+<script src="script.js"></script>
 
 </body>
 </html>
