@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>CV - Omer Faruk Kaya (64653)</title>
+    <link id="theme-style" rel="stylesheet" href="red.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Omer Faruk Kaya</h1>
+    <p><strong>Numer indeksu: 64653</strong></p>
+    <p>Email: omerfrkyaa@gmail.com</p>
+    <p>Telefon: +48 571 410 187</p>
+    <p>Miasto: Warszawa</p>
+
+    <hr>
+
+    <button onclick="toggleInfo()">Pokaż więcej</button>
+    <button onclick="changeTheme()">Zmień motyw</button>
+    <button onclick="showMessage()">Kliknij mnie</button>
+
+    <div id="extra-info" style="display: none; margin-top: 15px;">
+        <p>Interesuję się sztuczną inteligencją, programowaniem oraz nowymi technologiami.</p>
+    </div>
+
+    <h2>Profil</h2>
+    <p>
+        Jestem studentem informatyki, rozwijającym się w kierunku AI oraz software development.
+    </p>
+
+    <h2>Wykształcenie</h2>
+    <ul>
+        <li>
+            <strong>Uczelnia Vistula</strong> – kierunek (2022–2027)
+        </li>
+    </ul>
+
+    <h2>Doświadczenie zawodowe</h2>
+    <ul>
+        <li>
+            <strong>Siliconmade Academy</strong> – AI Developer (2024–2025)
+            <p>Praca nad projektami związanymi ze sztuczną inteligencją i automatyzacją.</p>
+        </li>
+    </ul>
+
+    <!-- ZAD6: Liste boş, script.js dolduruyor -->
+    <h2>Umiejętności</h2>
+    <ul id="lista-umiejetnosci">
+    </ul>
+
+    <h2>Języki</h2>
+    <ul>
+        <li>Polish – B1</li>
+        <li>English – A2+</li>
+        <li>Turkish – Native</li>
+    </ul>
+
+    <!-- ZAD6: Liste boş, script.js dolduruyor -->
+    <h2>Projekty</h2>
+    <ul id="lista-projektow">
+    </ul>
+
+    <h2>Zainteresowania</h2>
+    <p>Bardzo lubię historię. Jestem licencjonowanym graczem tenisa stołowego.</p>
+
+    <h2>Kontakt</h2>
+
+    <form id="contact-form" onsubmit="return validateForm()">
+
+        <label>Imię:</label><br>
+        <input type="text" id="name"><br><br>
+
+        <label>Nazwisko:</label><br>
+        <input type="text" id="surname"><br><br>
+
+        <label>Email:</label><br>
+        <input type="text" id="email"><br><br>
+
+        <label>Wiadomość:</label><br>
+        <textarea id="message"></textarea><br><br>
+
+        <button type="submit">Wyślij</button>
+
+    </form>
+
+    <p id="error" style="color:red;"></p>
+    <p id="success" style="color:green;"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

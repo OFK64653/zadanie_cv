@@ -1,0 +1,23 @@
+{
+  "umiejetnosci": [
+    "Python",
+    "C#",
+    "Java",
+    "HTML & CSS",
+    "JavaScript"
+  ],
+  "projekty": [
+    {
+      "nazwa": "CV Online",
+      "opis": "Strona internetowa z CV zbudowana w HTML, CSS i JavaScript."
+    },
+    {
+      "nazwa": "AI Chatbot",
+      "opis": "Projekt chatbota z wykorzystaniem sztucznej inteligencji."
+    },
+    {
+      "nazwa": "Automatyzacja procesów",
+      "opis": "Skrypt Python automatyzujący zadania biurowe."
+    }
+  ]
+}
